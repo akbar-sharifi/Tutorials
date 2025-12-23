@@ -33,4 +33,5 @@ This repository stores tutorials created by Claude on various subjects.
 
 ## Current Tutorials
 
-*(Tutorials will be listed here as they are added)*
+### AI & Machine Learning (`ai-ml/`)
+- **[How LLMs Work Internally](ai-ml/how-llms-work-internally.md)** - Comprehensive guide explaining the internal workings of Large Language Models, including tokenization, embeddings, transformer architecture, attention mechanisms, training, and inference. Designed for software engineers without ML background.
