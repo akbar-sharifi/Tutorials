@@ -35,3 +35,6 @@ This repository stores tutorials created by Claude on various subjects.
 
 ### AI & Machine Learning (`ai-ml/`)
 - **[How LLMs Work Internally](ai-ml/how-llms-work-internally.md)** - Comprehensive guide explaining the internal workings of Large Language Models, including tokenization, embeddings, transformer architecture, attention mechanisms, training, and inference. Designed for software engineers without ML background.
+
+### History (`history/`)
+- **[French History Essentials](history/french-history-essentials.md)** - Thematic journey through French history from medieval times to present day. Focuses on key concepts, movements, and cultural impact rather than overwhelming dates. Covers the Revolution, Napoleon, Belle Époque, World Wars, and modern France's identity. Perfect for intellectuals seeking essential knowledge about French civilization.
