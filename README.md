@@ -43,3 +43,6 @@ This repository stores tutorials created by Claude on various subjects.
 
 ### Space & Astronomy (`space/`)
 - **[Spacecraft Navigation](space/spacecraft-navigation.md)** - Comprehensive guide to how spacecraft navigate to distant destinations in the constantly moving solar system. Covers orbital mechanics, trajectory planning, launch windows, navigation techniques, course corrections, gravity assists, and real mission examples. Explains the challenges of vast distances, communication delays, and precision requirements. Accessible to non-specialists while being detailed and self-contained.
+
+### Professional Development (`professional-development/`)
+- **[The Coaching Habit Guide](professional-development/coaching-habit-guide.md)** - Practical coaching framework based on Michael Bungay Stanier's "The Coaching Habit." Master the seven essential questions that transform leadership: kickstart question, AWE question ("And what else?"), focus question, foundation question, lazy question, strategic question, and learning question. Learn to tame the Advice Monster, stay curious longer, and build team independence. Includes real scenarios, common pitfalls, daily practice guide, and quick reference.
