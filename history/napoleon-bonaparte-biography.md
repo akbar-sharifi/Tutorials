@@ -2,7 +2,7 @@
 
 A narrative exploration of the man who reshaped Europe and left a legacy that still echoes today.
 
-![Napoleon Bonaparte](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg)
+![Napoleon Bonaparte](images/napoleon-in-study.jpg)
 *Napoleon in His Study at the Tuileries (1812) by Jacques-Louis David*
 
 ## Table of Contents
@@ -100,7 +100,7 @@ The military campaign failed (the British destroyed his fleet), but the romantic
 
 He abandoned his army and returned to France, where news of the defeat hadn't yet arrived. He came back a hero.
 
-![Napoleon Crossing the Alps](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg/800px-David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg)
+![Napoleon Crossing the Alps](images/napoleon-crossing-alps.jpg)
 *Napoleon Crossing the Alps (1801) by Jacques-Louis David - The romantic, heroic image Napoleon cultivated*
 
 ---
@@ -133,7 +133,7 @@ In 1804, Napoleon crowned himself Emperor of the French. The revolutionary becam
 
 **The contradiction**: He claimed to represent the Revolution's ideals while creating a new monarchy. Yet he meant it—his empire was based on merit (the "career open to talent"), law, and efficiency, not aristocratic birth.
 
-![The Coronation of Napoleon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg/1024px-Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg)
+![The Coronation of Napoleon](images/napoleon-coronation.jpg)
 *The Coronation of Napoleon (1807) by Jacques-Louis David - Napoleon crowning Empress Joséphine at Notre-Dame, December 2, 1804*
 
 ---
@@ -325,7 +325,7 @@ In 1812, Napoleon invaded Russia with 600,000 men—the largest army ever assemb
 
 **What it proved**: Napoleon was not invincible. Europe saw the giant bleed.
 
-![Napoleon's Retreat from Moscow](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Napoleons_retreat_from_moscow.jpg/1024px-Napoleons_retreat_from_moscow.jpg)
+![Napoleon's Retreat from Moscow](images/retreat-from-moscow.jpg)
 *Napoleon's Retreat from Moscow (1851) by Adolph Northen - The catastrophic winter retreat that broke Napoleon's invincibility*
 
 ### The Coalition
