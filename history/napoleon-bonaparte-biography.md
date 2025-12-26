@@ -2,6 +2,9 @@
 
 A narrative exploration of the man who reshaped Europe and left a legacy that still echoes today.
 
+![Napoleon Bonaparte](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg)
+*Napoleon in His Study at the Tuileries (1812) by Jacques-Louis David*
+
 ## Table of Contents
 1. [The Arc of an Extraordinary Life](#the-arc-of-an-extraordinary-life)
 2. [Origins: The Outsider](#origins-the-outsider)
@@ -97,6 +100,9 @@ The military campaign failed (the British destroyed his fleet), but the romantic
 
 He abandoned his army and returned to France, where news of the defeat hadn't yet arrived. He came back a hero.
 
+![Napoleon Crossing the Alps](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg/800px-David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg)
+*Napoleon Crossing the Alps (1801) by Jacques-Louis David - The romantic, heroic image Napoleon cultivated*
+
 ---
 
 ## Power: From First Consul to Emperor
@@ -127,6 +133,9 @@ In 1804, Napoleon crowned himself Emperor of the French. The revolutionary becam
 
 **The contradiction**: He claimed to represent the Revolution's ideals while creating a new monarchy. Yet he meant it—his empire was based on merit (the "career open to talent"), law, and efficiency, not aristocratic birth.
 
+![The Coronation of Napoleon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg/1024px-Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg)
+*The Coronation of Napoleon (1807) by Jacques-Louis David - Napoleon crowning Empress Joséphine at Notre-Dame, December 2, 1804*
+
 ---
 
 ## The Revolutionary Conqueror
@@ -139,6 +148,9 @@ At his height, Napoleon controlled most of continental Europe:
 - Germany (the Confederation of the Rhine)
 - Poland (the Duchy of Warsaw, recreated)
 - Spain (his brother Joseph as king)
+
+![Napoleon's Empire](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Europe_1812_map_en.png/1024px-Europe_1812_map_en.png)
+*Europe in 1812 at the height of Napoleon's power - French Empire (dark blue), Allied/dependent states (light blue)*
 
 **How he did it**: A combination of:
 - Military brilliance (victories at Austerlitz, Jena, Friedland, Wagram)
@@ -160,6 +172,9 @@ What made Napoleon militarily dominant:
 - **Austerlitz** (1805): His masterpiece—outnumbered, he lured enemies into a trap, crushed them
 - **Jena** (1806): Destroyed the Prussian army in a single day
 - **Friedland** (1807): Forced Russia to make peace
+
+![Battle of Austerlitz](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Battle_of_Austerlitz%2C_2_December_1805.png/1024px-Battle_of_Austerlitz%2C_2_December_1805.png)
+*The Battle of Austerlitz (1805) - Napoleon's greatest tactical victory, called the "Battle of the Three Emperors"*
 
 **Why he won**: He thought faster, acted faster, and concentrated force better than anyone else.
 
@@ -310,6 +325,9 @@ In 1812, Napoleon invaded Russia with 600,000 men—the largest army ever assemb
 
 **What it proved**: Napoleon was not invincible. Europe saw the giant bleed.
 
+![Napoleon's Retreat from Moscow](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Napoleons_retreat_from_moscow.jpg/1024px-Napoleons_retreat_from_moscow.jpg)
+*Napoleon's Retreat from Moscow (1851) by Adolph Northen - The catastrophic winter retreat that broke Napoleon's invincibility*
+
 ### The Coalition
 
 Sensing weakness, all of Europe united against Napoleon:
@@ -350,6 +368,9 @@ There, Napoleon spent his final six years:
 - Crafting his legend
 - Slowly dying (possibly stomach cancer, possibly poisoning)
 - Becoming a myth
+
+![Napoleon on St. Helena](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Napoleon_sthelena_vers_1820.jpg/800px-Napoleon_sthelena_vers_1820.jpg)
+*Napoleon on Saint Helena (c. 1820) - The fallen emperor in his final exile, dictating his memoirs*
 
 He died in 1821, age 51.
 
