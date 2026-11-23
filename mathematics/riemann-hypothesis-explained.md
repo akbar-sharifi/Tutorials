@@ -36,7 +36,7 @@ Some background first:
 
 - It was proposed by the German mathematician **Bernhard Riemann** in **1859**, in a short paper of about 8 pages titled *"On the Number of Primes Less Than a Given Magnitude."*
 - It has been unsolved for more than **165 years**.
-- It is one of the seven **Millennium Prize Problems**. Whoever proves it (or disproves it) wins **$1,000,000** from the Clay Mathematics Institute.
+- It is one of the seven **Millennium Prize Problems**. Whoever proves it (or disproves it) wins **\$1,000,000** from the Clay Mathematics Institute.
 - Many mathematicians consider it **the most important unsolved problem in all of mathematics**.
 
 ---
@@ -152,7 +152,9 @@ Gauss guessed:
 
 So the number of primes up to x should be roughly:
 
-$$\pi(x) \approx \frac{x}{\ln(x)}$$
+```
+π(x) ≈ x / ln(x)
+```
 
 Let's check:
 
@@ -170,7 +172,9 @@ This result (that π(x) and x / ln(x) get closer and closer in ratio) was finall
 
 Li(x) is a great estimate, but it's not perfect. There is always some **error**:
 
-$$\text{error} = \pi(x) - \text{Li}(x)$$
+```
+error = π(x) − Li(x)
+```
 
 > **How big can this error get?**
 
@@ -186,13 +190,19 @@ Before we meet the zeta function, let's play with infinite sums.
 
 ### Example A: A sum that blows up
 
-$$1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} + \cdots$$
+```
+1 + 1/2 + 1/3 + 1/4 + 1/5 + ...
+```
 
 This is called the **harmonic series**. Each term gets smaller, but the total **grows forever** (just very slowly). After 1 million terms, the sum is only about 14.4. But it never stops growing.
 
 Why? Group the terms:
 
-$$1 + \frac{1}{2} + \underbrace{\left(\frac{1}{3}+\frac{1}{4}\right)}_{> \frac{1}{2}} + \underbrace{\left(\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}\right)}_{> \frac{1}{2}} + \cdots$$
+```
+1 + 1/2 + (1/3 + 1/4) + (1/5 + 1/6 + 1/7 + 1/8) + ...
+          └─────┬───┘   └──────────┬──────────┘
+         bigger than 1/2      bigger than 1/2
+```
 
 Each group is bigger than ½, and there are infinitely many groups. So the total is infinite.
 
@@ -200,7 +210,9 @@ Each group is bigger than ½, and there are infinitely many groups. So the total
 
 Now square each denominator:
 
-$$1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \cdots$$
+```
+1 + 1/4 + 1/9 + 1/16 + 1/25 + ...
+```
 
 Running totals:
 
@@ -217,7 +229,9 @@ Running totals:
 
 This one **converges**: it settles on a finite value. In 1734, **Leonhard Euler** shocked the world by showing the exact answer is:
 
-$$1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots = \frac{\pi^2}{6} \approx 1.6449$$
+```
+1 + 1/4 + 1/9 + 1/16 + ...  =  π² / 6  ≈  1.6449
+```
 
 Yes, that's the *real* π = 3.14159..., the circle number, showing up in a sum about whole numbers. Math is full of surprises like this.
 
@@ -232,7 +246,9 @@ Notice the pattern in the two sums above. The only difference is the **exponent*
 
 Let's make the exponent a variable, **s**. That gives us the **zeta function** (ζ is the Greek letter "zeta"):
 
-$$\boxed{\zeta(s) = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \frac{1}{5^s} + \cdots}$$
+```
+ζ(s) = 1/1ˢ + 1/2ˢ + 1/3ˢ + 1/4ˢ + 1/5ˢ + ...
+```
 
 **A function is a machine:** you feed in a number s, and it gives you back a number ζ(s).
 
@@ -256,7 +272,11 @@ So far, the zeta function looks like it's about *all* whole numbers. What does i
 
 Euler discovered something amazing. The zeta function can also be written as a **product over only the primes**:
 
-$$\zeta(s) = \frac{1}{1 - \frac{1}{2^s}} \times \frac{1}{1 - \frac{1}{3^s}} \times \frac{1}{1 - \frac{1}{5^s}} \times \frac{1}{1 - \frac{1}{7^s}} \times \frac{1}{1 - \frac{1}{11^s}} \times \cdots$$
+```
+            1              1              1              1
+ζ(s) = ─────────── × ─────────── × ─────────── × ─────────── × ...
+        1 − 1/2ˢ       1 − 1/3ˢ       1 − 1/5ˢ       1 − 1/7ˢ
+```
 
 One factor for **every prime**, and nothing else.
 
@@ -264,9 +284,17 @@ One factor for **every prime**, and nothing else.
 
 Remember the geometric series: 1/(1 − r) = 1 + r + r² + r³ + .... So each factor expands like this:
 
-$$\frac{1}{1 - \frac{1}{2^s}} = 1 + \frac{1}{2^s} + \frac{1}{4^s} + \frac{1}{8^s} + \cdots \quad \text{(powers of 2)}$$
+```
+    1
+─────────── = 1 + 1/2ˢ + 1/4ˢ + 1/8ˢ + ...     (powers of 2)
+ 1 − 1/2ˢ
+```
 
-$$\frac{1}{1 - \frac{1}{3^s}} = 1 + \frac{1}{3^s} + \frac{1}{9^s} + \frac{1}{27^s} + \cdots \quad \text{(powers of 3)}$$
+```
+    1
+─────────── = 1 + 1/3ˢ + 1/9ˢ + 1/27ˢ + ...    (powers of 3)
+ 1 − 1/3ˢ
+```
 
 and so on for 5, 7, 11, ...
 
@@ -294,13 +322,17 @@ Riemann's big idea was to plug **complex numbers** into the zeta function. Here'
 
 There's no ordinary (real) number whose square is −1. Mathematicians simply **invented one** and called it **i**:
 
-$$i^2 = -1$$
+```
+i² = −1
+```
 
 ### Complex numbers
 
 A **complex number** is a combination of a real part and an imaginary part:
 
-$$s = a + b\,i$$
+```
+s = a + b·i
+```
 
 Examples: 3 + 2i, −1 + 5i, 0.5 + 14.13i, 7 (which is 7 + 0i).
 
@@ -353,7 +385,9 @@ Imagine someone draws the right half of a perfectly smooth curve and asks you to
 
 On the extended function, some strange-looking values appear, like:
 
-$$\zeta(0) = -\frac{1}{2}, \qquad \zeta(-1) = -\frac{1}{12}$$
+```
+ζ(0) = −1/2        ζ(−1) = −1/12
+```
 
 **Important:** This does *not* mean that 1 + 2 + 3 + 4 + ... "really" equals −1/12. The original sum doesn't work there at all. These are values of the *extended* function, which is defined in a different way in that region.
 
@@ -377,7 +411,9 @@ Zeros are incredibly useful. If you know all the zeros of a polynomial, you basi
 
 ζ(s) = 0 at every **negative even number**:
 
-$$s = -2, -4, -6, -8, \ldots$$
+```
+s = −2, −4, −6, −8, ...
+```
 
 These are well understood and easy to find. Nobody worries about them.
 
@@ -441,7 +477,9 @@ This is the most beautiful part. Why should zeros on a line in the complex plane
 
 Riemann found an **exact formula** for counting primes. Very roughly, it says:
 
-$$\text{(prime count up to } x) = \text{(smooth main estimate)} - \sum_{\text{zeros}} \text{(a wave for each zero)}$$
+```
+(prime count up to x)  =  (smooth main estimate)  −  (sum of one wave for each zero)
+```
 
 ### Analogy: music
 
@@ -483,7 +521,9 @@ Because of the mirror symmetry, zeros pair up around the line ½. So ½ is the *
 
 In symbols, if RH is true then
 
-$$|\pi(x) - \text{Li}(x)| \le \frac{1}{8\pi}\sqrt{x}\,\ln(x) \qquad \text{for all } x \ge 2657.$$
+```
+|π(x) − Li(x)|  ≤  (1 / 8π) × √x × ln(x)        for all x ≥ 2657
+```
 
 ### A concrete example
 
@@ -543,7 +583,7 @@ In the 1970s, mathematician **Hugh Montgomery** found a formula for how the spac
 
 ### 5. The million-dollar prize
 
-The Clay Mathematics Institute offers **$1,000,000** for a correct proof. Many famous mathematicians have tried; none have succeeded. The mathematician David Hilbert reportedly said that if he woke up after sleeping for 1,000 years, his first question would be: *"Has the Riemann Hypothesis been proven?"*
+The Clay Mathematics Institute offers **\$1,000,000** for a correct proof. Many famous mathematicians have tried; none have succeeded. The mathematician David Hilbert reportedly said that if he woke up after sleeping for 1,000 years, his first question would be: *"Has the Riemann Hypothesis been proven?"*
 
 ---
 
@@ -563,7 +603,7 @@ The Clay Mathematics Institute offers **$1,000,000** for a correct proof. Many f
 | 10 | **The Hypothesis** | **All mysterious zeros have real part exactly ½** |
 | 11 | Why it matters for primes | Each zero adds a "wave" to the prime count; real part ½ means the smallest possible error (≈ √x) |
 | 12 | Status | 10+ trillion zeros checked, all on the line; still no proof |
-| 13 | Importance | Hundreds of theorems depend on it; $1M prize; strange links to physics |
+| 13 | Importance | Hundreds of theorems depend on it; \$1M prize; strange links to physics |
 
 ### The core idea in plain words
 
